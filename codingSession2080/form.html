@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            body{
+                height: 100vh;
+                background-color: black;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+            button{
+                width: 255px;
+                height: 30px;
+                border-radius: 10px;
+                margin-top: 10px;
+                background-color: cyan;
+                box-shadow: 0 0 10px cyan;
+                font-size: 22px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="form-container">
+            <div class="wrapper">
+                <h2 style="color: white; text-align: center;margin-bottom: 30px;">Sign Up</h2>
+                <form action="index.html">
+                    <div class="input-group">
+                        <label for="FullName">Full Name</label><br>
+                        <input type="text" name="fullName">
+                    </div>
+                    <div class="input-group">
+                        <label for="Email">Email</label><br>
+                        <input type="email" name="email">
+                    </div>
+                    <div class="input-group">
+                        <label for="Password">Password</label><br>
+                        <input type="password" name="password">
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
